@@ -1,3 +1,205 @@
-h1{
-	color: orange;
+/*
+Descrição: folha de estilos criado para o site Lvl Cap Studios
+Autor: Guilherme Henrique Oliveira
+*/
+
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+
+/* Header */
+.menu-header{
+	background-color: #333333;
+	color: white;
+	height: 90px;
+
+}
+
+
+.menu-header ul{ 
+	list-style: none; 
+	padding-top: 20px; 
+	padding-left: 50px;
+	margin-top: 15px; 
+	font-size: 23px; }
+.menu-header ul li{ 
+	display: inline;  
+	margin: 0 10px 0 0; }
+.menu-header ul li:last-child{ 
+	margin: 0; }
+.menu-header ul li a{ 
+	color: white;  
+	text-decoration: none;}
+
+.logo{
+	z-index: 1;
+}
+
+.logo img{
+	max-width: 100%;
+	height: auto !important;
+	
+}
+
+/* quem somos */
+
+.quem-somos{
+	background-color: #e6eef2;
+	
+}
+
+.about-us{
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.aboutusimg{
+
+	max-width: 100%;
+	height: auto;
+}
+
+.socialmidia{
+
+}
+
+.socialmidia img{
+	max-height: 40px;
+	width: auto;
+	padding: 0 5px 0 5px;
+}
+
+
+/* Nossos Jogos */
+
+.nossos-jogos{
+	background-color: #e6eef2;
+
+
+}
+
+.our-games{	
+	margin-bottom: 0px;
+}
+
+.our-games h1{
+	text-align: right;
+}
+
+.fire-boy{
+	background-image: url('http://imindiemarketing.com/lvlcapstudios/wp-content/uploads/2019/03/Fireboy-Background.png');
+	background-repeat: no-repeat;
+	background-position: center; 
+	background-size: cover;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	color: white;
+
+}
+
+.fire-boy img{
+	max-height: 400px;
+	width: auto;
+	margin-top: 20px;
+	margin-bottom: 15px;
+
+}
+
+
+.temple{
+	background-image: url('http://imindiemarketing.com/lvlcapstudios/wp-content/uploads/2019/03/The-temple-of-battle-background.png');
+	background-repeat: no-repeat;
+	background-position: center; 
+	background-size: cover;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	color: white;
+}
+
+.temple img{
+	max-height: 400px;
+	width: auto;
+	margin-top: 20px;
+	margin-bottom: 15px;
+	margin-left: 50px;
+}
+
+.temple-video-container{
+ 	position: relative;
+    overflow: hidden;
+    padding-top: 56.25%;
+}
+
+.temple-video-iframe{
+	position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+
+
+
+}
+
+/* Blog */
+.blog{
+	
+}
+
+.blog-wrap{
+	
+
+}
+
+.blog-wrap a{
+	text-decoration: none;
+	color: black;
+}
+
+.blog-wrap a:hover{
+	color: #bcd8c1;
+}
+
+/* Footer */
+.footer{
+	background-color: black;
+	color: white;
+}
+
+.contact{
+
+}
+
+.copywrite{
+	text-align: center;
+	padding-bottom: 10px;
+}
+
+
+/* Blog Page */
+
+.blogpage{
+	background-color: #e6eef2;
+	height: 100vh;
+	
+}
+
+/* Single Page */
+
+.single{
+	background-color: #e6eef2;
+	height: 100vh;
+
+}
+
+.single-post{
+	background-color: white;
+}
+
+.single-thumbnail img{
+	max-width: 100%;
+	height: auto !important;
 }
