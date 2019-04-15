@@ -14,6 +14,7 @@ Autor: Guilherme Henrique Oliveira
 	color: white;
 	height: 90px;
 
+
 }
 
 .menu-header ul{ 
@@ -39,6 +40,10 @@ Autor: Guilherme Henrique Oliveira
 	max-width: 100%;
 	height: auto !important;
 	
+}
+
+.aboutush1{
+	padding-top: 60px;
 }
 
 /* quem somos */
