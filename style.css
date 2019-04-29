@@ -37,7 +37,7 @@ Autor: Guilherme Henrique Oliveira
 }
 
 .logo img{
-	max-width: 100%;
+	max-width: 150px;
 	height: auto !important;
 	
 }
@@ -110,6 +110,20 @@ Autor: Guilherme Henrique Oliveira
 
 }
 
+.fire-boy-download{
+
+}
+
+.fire-boy-download a{
+	color: white;  
+	text-decoration: none;
+}
+
+.fire-boy-download img{
+	max-height: 40px;
+	width: auto;
+}
+
 
 .temple{
 	background-image: url('img/ttob_bg.png');
@@ -129,10 +143,10 @@ Autor: Guilherme Henrique Oliveira
 	margin-left: 50px;
 }
 
+
+
 .temple-video-container{
- 	position: relative;
-    overflow: hidden;
-    padding-top: 56.25%;
+ 	padding-top: 20px;
 }
 
 .temple-video-iframe{
