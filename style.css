@@ -158,28 +158,12 @@ Autor: Guilherme Henrique Oliveira
     border: 0;
 }
 
-
-
+.ttob_btn{
+	text-align: center;
 }
 
-/* Blog */
-.blog{
-	
-}
 
-.blog-wrap{
-	
 
-}
-
-.blog-wrap a{
-	text-decoration: none;
-	color: black;
-}
-
-.blog-wrap a:hover{
-	color: #bcd8c1;
-}
 
 /* Footer */
 .footer{
@@ -194,30 +178,16 @@ Autor: Guilherme Henrique Oliveira
 .copywrite{
 	text-align: center;
 	padding-bottom: 10px;
+	padding-top: 10px;
+	font-size: 14px;
+}
+
+.contact_div{
+	text-align: center;
+}
+
+.contact_div a{
+	text-decoration: none;
 }
 
 
-/* Blog Page */
-
-.blogpage{
-	background-color: #e6eef2;
-	height: 100vh;
-	
-}
-
-/* Single Page */
-
-.single{
-	background-color: #e6eef2;
-	height: 100vh;
-
-}
-
-.single-post{
-	background-color: white;
-}
-
-.single-thumbnail img{
-	max-width: 100%;
-	height: auto !important;
-}
