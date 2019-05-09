@@ -192,4 +192,37 @@ Autor: Guilherme Henrique Oliveira
 	color: white;
 }
 
+/* FireBoy Beta test page */
 
+.fireboy_beta{
+	background-color: #e6eef2;
+}
+
+.fireboy_beta_content{
+	padding-top: 65px;
+}
+
+.fb_1{
+	background-color: #bcd8c1;
+	padding: 15px 15px 15px 15px;
+}
+
+.fb_2{
+
+}
+
+.fb_3{
+
+}
+
+.fb_4{
+
+}
+
+.fb_img img{
+	max-height: 400px;
+	width: auto;
+	margin-top: 20px;
+	margin-bottom: 15px;
+
+}
