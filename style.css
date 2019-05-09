@@ -177,17 +177,19 @@ Autor: Guilherme Henrique Oliveira
 
 .copywrite{
 	text-align: center;
-	padding-bottom: 10px;
+	padding-bottom: 5px;
 	padding-top: 10px;
 	font-size: 14px;
 }
 
 .contact_div{
 	text-align: center;
+
 }
 
 .contact_div a{
 	text-decoration: none;
+	color: white;
 }
 
 
